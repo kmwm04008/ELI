@@ -1,0 +1,281 @@
+/* Whole Website Formatting */
+body{margin:0;
+    font-family: "Mallory",Verdana,Arial,Helvetica,sans-serif;
+    color: #222222;
+    font-weight: normal;
+    font-size: 1.0625em;
+    line-height: 1.5;
+}
+
+article,aside,footer,header,hgroup,main,menu,section,summary{display:block;}
+audio,canvas,progress,video{display:inline-block;vertical-align:baseline;}
+audio:not([controls]){display:none;height:0;}
+h1{line-height:72px;margin:0.67em 0;color:#003D76;}
+h2{line-height:40px;margin:0.67em 0;color:#003D76;}
+hr{box-sizing:content-box;height:0;}
+
+table{border:2px solid #003D76; border-collapse: collapse;}
+td,th{border:1px solid #003D76; padding:10px; font-family:"Mallory",Verdana,Arial,Helvetica,sans-serif;}
+hr{margin:0;border:0;border-bottom:1px solid #e2e2e2;}
+.mainhead{background-color:#003D76}
+.mainhead th{color:#FFFFFF;}
+
+.button {background-color:#003D76;border:none;padding: 15px 32px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;margin: 4px 2px;cursor: pointer;}
+.button:visited {color:#FFFFFF;}
+
+
+/* Navigation Bar Styling */
+.nav-list {
+    background: #00356B;
+    margin:0;
+    padding:2rem 1rem;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align:center;
+        -ms-flex-align:center;
+            align-items:center;
+}
+
+.nav-item {
+    list-style:none;
+    margin-right:2rem;
+
+}
+
+.nav-item a {
+    text-decoration:none;
+    color:#FFFFFF;
+    font-size:.8em;
+}
+
+.nav-item a:hover {
+    color:#286DC0;
+    -webkit-text-decoration:underline 0.15em;
+            text-decoration:underline 0.15em;
+    -webkit-transition:all 50ms ease-in;
+    -o-transition:all 50ms ease-in;
+    transition:all 50ms ease-in;
+}
+
+.nav-item:first-child {
+        margin-right:auto;
+        margin-left:2rem;
+        width:175px;
+        height:50px;
+}
+
+/* Homepage Styling */
+
+.home {
+    overflow: hidden;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly; 
+    -webkit-box-align:start; 
+        -ms-flex-align:start; 
+            align-items:flex-start;
+    margin:2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap:wrap;
+        flex-wrap:wrap;
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+        -ms-flex-direction:column;
+            flex-direction:column;
+}
+
+[class ^="box-"] {
+    background-color:#f9f9f9;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    margin:2rem;
+    overflow:hidden;
+    padding:30px;
+    -ms-flex-wrap:wrap;
+        flex-wrap:wrap;
+}
+
+
+/* News Styling */
+.wrapper-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 40px 48px;
+    -webkit-box-pack:center;
+        -ms-flex-pack:center;
+            justify-content:center;
+  }
+  
+.container {
+    overflow: hidden;
+    -webkit-box-pack:center;
+        -ms-flex-pack:center;
+            justify-content:center;
+    text-align: center;
+    margin:2rem;
+    padding:30px;
+    background-color: #f9f9f9;
+  }
+
+  .opportunities {
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+  }
+
+  .container p{
+    text-align:left;
+  }
+
+  .container video {
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-pack:center;
+        -ms-flex-pack:center;
+            justify-content:center;
+    -o-object-fit:cover;
+       object-fit:cover;
+    width:700px;
+    height:auto;
+  }
+
+  .caption {
+    line-height: 10px;
+    font-size: .8em;
+  }
+
+  .banner-img {
+    position: absolute;
+    background-image: url(https://news.yale.edu/sites/default/files/styles/card/public/thumbnail/ynews-art_and_gender_eva_hesse_artist_painter.jpg?itok=L6FxDSL1&c=ba100f0801d9c47215cfa28e84908c05);
+    height: 10rem;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .name {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+
+  .description {
+    margin: 1rem 2rem;
+    font-size: 0.9rem;
+  }
+
+  .btn {
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    padding: 1rem;
+    background-color: #00356B;
+  }  
+  
+/* Footer Styling */
+.footer-list {
+    background: #00356B;
+    margin:0;
+    padding:2rem 1rem;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-pack:center;
+        -ms-flex-pack:center;
+            justify-content:center;
+    -webkit-box-align:center;
+        -ms-flex-align:center;
+            align-items:center;
+}
+
+.footer-item {
+    list-style:none;
+    margin-right:2rem;
+    color:#FFFFFF;
+    font-size:.8em;
+
+}
+
+.footer-item a {
+    text-decoration:none;
+    color:#FFFFFF;
+}
+
+.footer-item a:hover {
+    color:#286DC0;
+    -webkit-text-decoration:underline 0.15em;
+            text-decoration:underline 0.15em;
+    -webkit-transition:all 50ms ease-in;
+    -o-transition:all 50ms ease-in;
+    transition:all 50ms ease-in;
+}
+
+/* News */
+
+.news {
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack:space-evenly;
+        -ms-flex-pack:space-evenly;
+            justify-content:space-evenly;
+}
+
+.news-body {
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-pack:center;
+        -ms-flex-pack:center;
+            justify-content:center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 350px;
+    margin:20px;
+    overflow: hidden;
+    background-color: #f9f9f9;
+    border: 1px solid #8F8F8F;
+    -webkit-box-shadow: 4px 4px #dddddd;
+            box-shadow: 4px 4px #dddddd;
+}
+
+.news-image {
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -o-object-fit:cover;
+       object-fit:cover;
+}
+
+.news-text {
+    margin:0;
+    padding:15px;
+    font-size:.9em;
+}
+
+.news-link {
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    width:350px;
+    padding:15px;
+    text-decoration: none;
+    color:#00356B;
+    font-weight: bold;
+}
